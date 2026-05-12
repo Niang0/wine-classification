@@ -1,0 +1,52 @@
+   Wine  Alcohol  Malic.acid  ...   Hue    OD  Proline
+0     1    14.23        1.71  ...  1.04  3.92     1065
+1     1    13.20        1.78  ...  1.05  3.40     1050
+2     1    13.16        2.36  ...  1.03  3.17     1185
+3     1    14.37        1.95  ...  0.86  3.45     1480
+4     1    13.24        2.59  ...  1.04  2.93      735
+
+[5 rows x 14 columns]
+             Wine     Alcohol  ...          OD      Proline
+count  178.000000  178.000000  ...  178.000000   178.000000
+mean     1.938202   13.000618  ...    2.611685   746.893258
+std      0.775035    0.811827  ...    0.709990   314.907474
+min      1.000000   11.030000  ...    1.270000   278.000000
+25%      1.000000   12.362500  ...    1.937500   500.500000
+50%      2.000000   13.050000  ...    2.780000   673.500000
+75%      3.000000   13.677500  ...    3.170000   985.000000
+max      3.000000   14.830000  ...    4.000000  1680.000000
+
+[8 rows x 14 columns]
+Wine                    0
+Alcohol                 0
+Malic.acid              0
+Ash                     0
+Acl                     0
+Mg                      0
+Phenols                 0
+Flavanoids              0
+Nonflavanoid.phenols    0
+Proanth                 0
+Color.int               0
+Hue                     0
+OD                      0
+Proline                 0
+dtype: int64
+Traceback (most recent call last):
+  File "C:\Users\abdou\Desktop\Wine_classification\main.py", line 313, in <module>
+    run_experiment("SGD")
+  File "C:\Users\abdou\Desktop\Wine_classification\main.py", line 74, in run_experiment
+    X = df.drop("target", axis=1).values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abdou\Desktop\Wine_classification\.venv\Lib\site-packages\pandas\core\frame.py", line 6300, in drop
+    return super().drop(
+           ^^^^^^^^^^^^^
+  File "C:\Users\abdou\Desktop\Wine_classification\.venv\Lib\site-packages\pandas\core\generic.py", line 4644, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abdou\Desktop\Wine_classification\.venv\Lib\site-packages\pandas\core\generic.py", line 4686, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abdou\Desktop\Wine_classification\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 7268, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['target'] not found in axis"

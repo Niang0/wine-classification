@@ -1,0 +1,24 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.11.9",
+  "startedAt":  "2026-05-12T17:10:34.359112Z",
+  "program":  "C:\\Users\\abdou\\Desktop\\Wine_classification\\main.py",
+  "codePath":  "main.py",
+  "codePathLocal":  "main.py",
+  "email":  "abdoukillmonger@gmail.com",
+  "root":  "C:\\Users\\abdou\\Desktop\\Wine_classification",
+  "host":  "DESKTOP-2VB7677",
+  "executable":  "C:\\Users\\abdou\\Desktop\\Wine_classification\\.venv\\Scripts\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "511154253824",
+      "used":  "374877528064"
+    }
+  },
+  "memory":  {
+    "total":  "21319168000"
+  },
+  "writerId":  "d8u3pwhaekxhe2f102u7pkekowclzd0c"
+}

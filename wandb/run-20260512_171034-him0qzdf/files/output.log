@@ -1,0 +1,235 @@
+   Wine  Alcohol  Malic.acid   Ash   Acl  ...  Proanth  Color.int   Hue    OD  Proline
+0     1    14.23        1.71  2.43  15.6  ...     2.29       5.64  1.04  3.92     1065
+1     1    13.20        1.78  2.14  11.2  ...     1.28       4.38  1.05  3.40     1050
+2     1    13.16        2.36  2.67  18.6  ...     2.81       5.68  1.03  3.17     1185
+3     1    14.37        1.95  2.50  16.8  ...     2.18       7.80  0.86  3.45     1480
+4     1    13.24        2.59  2.87  21.0  ...     1.82       4.32  1.04  2.93      735
+
+[5 rows x 14 columns]
+             Wine     Alcohol  Malic.acid  ...         Hue          OD      Proline
+count  178.000000  178.000000  178.000000  ...  178.000000  178.000000   178.000000
+mean     1.938202   13.000618    2.336348  ...    0.957449    2.611685   746.893258
+std      0.775035    0.811827    1.117146  ...    0.228572    0.709990   314.907474
+min      1.000000   11.030000    0.740000  ...    0.480000    1.270000   278.000000
+25%      1.000000   12.362500    1.602500  ...    0.782500    1.937500   500.500000
+50%      2.000000   13.050000    1.865000  ...    0.965000    2.780000   673.500000
+75%      3.000000   13.677500    3.082500  ...    1.120000    3.170000   985.000000
+max      3.000000   14.830000    5.800000  ...    1.710000    4.000000  1680.000000
+
+[8 rows x 14 columns]
+Wine                    0
+Alcohol                 0
+Malic.acid              0
+Ash                     0
+Acl                     0
+Mg                      0
+Phenols                 0
+Flavanoids              0
+Nonflavanoid.phenols    0
+Proanth                 0
+Color.int               0
+Hue                     0
+OD                      0
+Proline                 0
+dtype: int64
+Device : cpu
+
+Epoch 1
+Train Loss : 0.6250 | Train Acc : 0.8310
+Eval Loss : 0.0927 | Eval Acc : 1.0000
+
+Epoch 2
+Train Loss : 0.0683 | Train Acc : 0.9718
+Eval Loss : 0.0468 | Eval Acc : 0.9722
+
+Epoch 3
+Train Loss : 0.0213 | Train Acc : 0.9859
+Eval Loss : 0.0404 | Eval Acc : 0.9722
+
+Epoch 4
+Train Loss : 0.0094 | Train Acc : 0.9930
+Eval Loss : 0.0184 | Eval Acc : 1.0000
+
+Epoch 5
+Train Loss : 0.0013 | Train Acc : 1.0000
+Eval Loss : 0.0462 | Eval Acc : 0.9722
+
+Epoch 6
+Train Loss : 0.0008 | Train Acc : 1.0000
+Eval Loss : 0.0580 | Eval Acc : 0.9444
+
+Epoch 7
+Train Loss : 0.0003 | Train Acc : 1.0000
+Eval Loss : 0.0526 | Eval Acc : 0.9444
+
+Epoch 8
+Train Loss : 0.0002 | Train Acc : 1.0000
+Eval Loss : 0.0498 | Eval Acc : 0.9722
+
+Epoch 9
+Train Loss : 0.0001 | Train Acc : 1.0000
+Eval Loss : 0.0500 | Eval Acc : 0.9722
+
+Epoch 10
+Train Loss : 0.0001 | Train Acc : 1.0000
+Eval Loss : 0.0505 | Eval Acc : 0.9722
+
+Epoch 11
+Train Loss : 0.0001 | Train Acc : 1.0000
+Eval Loss : 0.0517 | Eval Acc : 0.9722
+
+Epoch 12
+Train Loss : 0.0001 | Train Acc : 1.0000
+Eval Loss : 0.0537 | Eval Acc : 0.9722
+
+Epoch 13
+Train Loss : 0.0001 | Train Acc : 1.0000
+Eval Loss : 0.0549 | Eval Acc : 0.9722
+
+Epoch 14
+Train Loss : 0.0001 | Train Acc : 1.0000
+Eval Loss : 0.0558 | Eval Acc : 0.9722
+
+Epoch 15
+Train Loss : 0.0001 | Train Acc : 1.0000
+Eval Loss : 0.0567 | Eval Acc : 0.9722
+
+Epoch 16
+Train Loss : 0.0001 | Train Acc : 1.0000
+Eval Loss : 0.0572 | Eval Acc : 0.9722
+
+Epoch 17
+Train Loss : 0.0001 | Train Acc : 1.0000
+Eval Loss : 0.0585 | Eval Acc : 0.9722
+
+Epoch 18
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0589 | Eval Acc : 0.9722
+
+Epoch 19
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0595 | Eval Acc : 0.9722
+
+Epoch 20
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0603 | Eval Acc : 0.9722
+
+Epoch 21
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0607 | Eval Acc : 0.9722
+
+Epoch 22
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0610 | Eval Acc : 0.9722
+
+Epoch 23
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0615 | Eval Acc : 0.9722
+
+Epoch 24
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0615 | Eval Acc : 0.9722
+
+Epoch 25
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0619 | Eval Acc : 0.9722
+
+Epoch 26
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0624 | Eval Acc : 0.9722
+
+Epoch 27
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0630 | Eval Acc : 0.9722
+
+Epoch 28
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0631 | Eval Acc : 0.9722
+
+Epoch 29
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0634 | Eval Acc : 0.9722
+
+Epoch 30
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0635 | Eval Acc : 0.9722
+
+Epoch 31
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0638 | Eval Acc : 0.9722
+
+Epoch 32
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0641 | Eval Acc : 0.9722
+
+Epoch 33
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0643 | Eval Acc : 0.9722
+
+Epoch 34
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0645 | Eval Acc : 0.9722
+
+Epoch 35
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0647 | Eval Acc : 0.9722
+
+Epoch 36
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0649 | Eval Acc : 0.9722
+
+Epoch 37
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0648 | Eval Acc : 0.9722
+
+Epoch 38
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0652 | Eval Acc : 0.9722
+
+Epoch 39
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0651 | Eval Acc : 0.9722
+
+Epoch 40
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0655 | Eval Acc : 0.9722
+
+Epoch 41
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0656 | Eval Acc : 0.9722
+
+Epoch 42
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0659 | Eval Acc : 0.9722
+
+Epoch 43
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0661 | Eval Acc : 0.9722
+
+Epoch 44
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0664 | Eval Acc : 0.9722
+
+Epoch 45
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0665 | Eval Acc : 0.9722
+
+Epoch 46
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0670 | Eval Acc : 0.9722
+
+Epoch 47
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0672 | Eval Acc : 0.9722
+
+Epoch 48
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0672 | Eval Acc : 0.9722
+
+Epoch 49
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0674 | Eval Acc : 0.9722
+
+Epoch 50
+Train Loss : 0.0000 | Train Acc : 1.0000
+Eval Loss : 0.0676 | Eval Acc : 0.9722

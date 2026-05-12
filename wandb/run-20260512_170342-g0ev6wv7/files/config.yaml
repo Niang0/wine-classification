@@ -1,0 +1,35 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        e:
+            5ba4roufvg7rzzqii1jec992bkl1mynp:
+                codePath: main.py
+                codePathLocal: main.py
+                email: abdoukillmonger@gmail.com
+                executable: C:\Users\abdou\Desktop\Wine_classification\.venv\Scripts\python.exe
+                host: DESKTOP-2VB7677
+                os: Windows-10-10.0.26200-SP0
+                program: C:\Users\abdou\Desktop\Wine_classification\main.py
+                python: CPython 3.11.9
+                root: C:\Users\abdou\Desktop\Wine_classification
+                startedAt: "2026-05-12T17:03:42.745305Z"
+                writerId: 5ba4roufvg7rzzqii1jec992bkl1mynp
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 13
+            "4": 3.11.9
+            "5": 0.26.1
+            "8":
+                - 3
+            "12": 0.26.1
+            "13": windows-amd64

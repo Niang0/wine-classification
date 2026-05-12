@@ -1,0 +1,52 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        e:
+            d8u3pwhaekxhe2f102u7pkekowclzd0c:
+                codePath: main.py
+                codePathLocal: main.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "511154253824"
+                        used: "374877528064"
+                email: abdoukillmonger@gmail.com
+                executable: C:\Users\abdou\Desktop\Wine_classification\.venv\Scripts\python.exe
+                host: DESKTOP-2VB7677
+                memory:
+                    total: "21319168000"
+                os: Windows-10-10.0.26200-SP0
+                program: C:\Users\abdou\Desktop\Wine_classification\main.py
+                python: CPython 3.11.9
+                root: C:\Users\abdou\Desktop\Wine_classification
+                startedAt: "2026-05-12T17:10:34.359112Z"
+                writerId: d8u3pwhaekxhe2f102u7pkekowclzd0c
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+            "4": 3.11.9
+            "5": 0.26.1
+            "8":
+                - 3
+            "12": 0.26.1
+            "13": windows-amd64
+batch_size:
+    value: 16
+epochs:
+    value: 50
+learning_rate:
+    value: 0.01
+optimizer:
+    value: Adam
